@@ -1,4 +1,4 @@
-﻿namespace MigrationService.Models;
+﻿namespace MigrationService.Domain.Entities;
 
 public class UserCurrency
 {

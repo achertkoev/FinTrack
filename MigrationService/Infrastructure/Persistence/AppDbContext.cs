@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
-using MigrationService.Models;
+using MigrationService.Domain.Entities;
 
-namespace MigrationService;
+namespace MigrationService.Infrastructure.Persistence;
 
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {

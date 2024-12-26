@@ -1,4 +1,4 @@
-﻿namespace MigrationService.Models;
+﻿namespace FinanceService.Domain.Entities;
 
 public class Currency
 {

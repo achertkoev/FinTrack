@@ -1,4 +1,4 @@
-﻿namespace MigrationService.Models;
+﻿namespace UserService.Domain.Entities;
 
 public class User
 {

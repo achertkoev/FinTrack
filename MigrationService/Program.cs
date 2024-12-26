@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MigrationService;
+using MigrationService.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 

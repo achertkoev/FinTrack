@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using MigrationService.Models;
+using MigrationService.Domain.Entities;
 
-namespace MigrationService.EntityConfigurations;
+namespace MigrationService.Infrastructure.Persistence.EntityConfigurations;
 
-public class CurrencyEntityConfiguration : IEntityTypeConfiguration<Currency>
+public class CurrencyEntityTypeConfiguration : IEntityTypeConfiguration<Currency>
 {
     public void Configure(EntityTypeBuilder<Currency> builder)
     {
